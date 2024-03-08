@@ -1,0 +1,96 @@
+@font-face {
+    font-family: myfont;
+    src: url(../fuente.ttf);
+}
+
+
+
+.head {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: myfont;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: block;
+    padding: 30px;
+    color: aliceblue;
+    font-size: 15px;
+    background: url(indiana.png.crdownload) no-repeat, linear-gradient(0deg, rgba(8, 193, 194, 1) 0%, rgba(25, 30, 200, 1) 100%);
+    background-size: 200%;
+    background-position: 90px 0px;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-position: -60px -70px;
+    transition: 0.5s;
+}
+
+.transition {
+    background: url(147841.svg);
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+
+.transition:hover {
+    width: 200px;
+    height: 200px;
+    transition: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+section div {
+    width: 45%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.uno {
+    background-color: yellow;
+    position: relative;
+}
+
+.dos {
+    background-color: red;
+    position: relative;
+}
+
+.tres {
+    background-color: blue;
+    position: relative;
+}
+
+.cuatro {
+    background-color: green;
+    position: relative;
+}
+
+.cinco {
+    background-color: gray;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+
+}
+
+.cinco:hover {
+    z-index: 6;
+}
