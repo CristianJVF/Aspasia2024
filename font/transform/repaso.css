@@ -15,7 +15,7 @@ li {
     list-style: none;
 }
 
-a {
+.container a {
     text-decoration: none;
     font-family: myfont;
     border-radius: 20px;
@@ -30,7 +30,7 @@ a {
     transition: 0.5s;
 }
 
-a:hover {
+.container a:hover {
     background-position: -60px -70px;
     transition: 0.5s;
 }
@@ -88,4 +88,35 @@ section div {
 
 section div:hover {
     z-index: 2;
+}
+
+.transform {
+    display: flex;
+}
+
+.transform div {
+    width: 30%;
+}
+
+.transform a {
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #98FB98;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+p {
+    width: 40%;
+    z-index: -1;
+}
+
+.transform a:hover {
+    /* transform: scalex(1.5); */
+    width: 120%;
+    transition: 2s;
+    z-index: 4;
 }
