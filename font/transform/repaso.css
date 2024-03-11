@@ -65,22 +65,18 @@ section div {
 
 .uno {
     background-color: yellow;
-    position: relative;
 }
 
 .dos {
     background-color: red;
-    position: relative;
 }
 
 .tres {
     background-color: blue;
-    position: relative;
 }
 
 .cuatro {
     background-color: green;
-    position: relative;
 }
 
 .cinco {
@@ -88,9 +84,8 @@ section div {
     position: absolute;
     top: 25%;
     bottom: 25%;
-
 }
 
-.cinco:hover {
-    z-index: 6;
+section div:hover {
+    z-index: 2;
 }
