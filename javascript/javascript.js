@@ -52,7 +52,7 @@ if (nota < 5) {
     console.log("aprobado")
 }
 
-const i = 73;
+const i = 7;
 if (i >= 0) {
     console.log("numero posittivo")
 } else {
