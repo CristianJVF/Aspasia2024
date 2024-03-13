@@ -101,3 +101,44 @@ function nand(true, false) {
 
 const y = nand()
 console.log(y)
+
+// Ejercicio 13
+
+const x = testSize();
+console.log(x);
+
+function nand(yep, nop ) {
+    if (yep == true && nop == true) {
+        return "false"
+    } else {
+        return "true"
+    }
+}
+
+const y = nand(true, true)
+console.log(y)
+
+function nand(a, b) {
+    return !(a && b); //El signo de admiracion significa desiguladad, son desigules a con respecto al parametro de entreada && b. La resouesta es False
+                      //si los valores pasados por los parametros fueran diferentes nos retornaria un true
+}
+
+const z = nand(false, false);
+console.log(z);
+
+ //Ejercicio 14
+
+ function nor(c, d) {
+    return !c && !d;  //
+ }
+  
+ const norReturn = nor(false, false);
+ console.log(norReturn);
+
+
+function xor(a, b) {
+    return !a && b;
+}
+
+const xx = xor(true, true);
+console.log(xx);
